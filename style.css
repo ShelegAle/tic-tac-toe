@@ -1,0 +1,28 @@
+.table div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0;
+    display: table-cell; 
+    vertical-align: middle;
+    font-size: 44px;
+}
+
+.table {
+    width: 156px;    
+    background-color: rgb(216, 216, 216);
+    height: 156px;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap:  wrap;
+    box-shadow: 0px 0px 15px rgb(146, 146, 146);
+}
+
+.game_start {
+    border: 2px solid red;
+    display: inline;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+}
